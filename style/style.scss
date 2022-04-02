@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// area import css
+@import 'header-top';
+@import 'header-slideshow';
+@import 'main-top';
+@import 'main-brand';
+@import 'main-products';
+@import 'main-sidebar';
+@import 'main-bottom';
+@import 'footer';
+// end
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+}

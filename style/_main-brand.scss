@@ -1,0 +1,50 @@
+$color-btn-border: #ddd;
+.title-main-brand {
+    width: 65%;
+    margin: 36px auto 20px auto;
+}
+
+.main-brand {
+    width: 65%;
+    display: flex;
+    margin: 0 auto;
+    &__slideshow-brand {
+        display: flex;
+        width: 95%;
+        overflow: hidden;
+        .list-brand {
+            display: flex;
+            .item-brand {
+                width: 120px;
+                height: 80px;
+                padding: 10px 25px;
+                border: 1px solid $color-btn-border;
+                border-radius: 15px;
+                margin: 0 5px;
+                cursor: pointer;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+    .btnslideshow-brand {
+        display: flex;
+        align-items: center;
+        .previous-brand {
+            padding: 10px 15px;
+            background-color: $color-btn-border;
+            border-radius: 50%;
+            margin: 0 2px;
+            cursor: pointer;
+        }
+        .next-brand {
+            padding: 10px 15px;
+            background-color: $color-btn-border;
+            border-radius: 50%;
+            margin: 0 2px;
+            cursor: pointer;
+        }
+    }
+}

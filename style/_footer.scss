@@ -1,0 +1,75 @@
+.footer {
+    background: $color-bgr;
+    padding: 30px 0;
+    .container {
+        display: flex;
+        width: 65%;
+        margin: 0 auto;
+        background: #fff;
+        justify-content: space-between;
+        border-radius: 15px;
+        overflow: hidden;
+        box-shadow: 0 0 10px 5px $color-item;
+        position: relative;
+        .moreInformation {
+            padding: 20px 30px;
+            width: 50%;
+            .logo {
+                margin-bottom: 35px;
+                img {
+                    max-width: 170px;
+                }
+                p {
+                    font-size: 12px;
+                    opacity: 0.5;
+                }
+            }
+            .list-information {
+                display: flex;
+                justify-content: space-between;
+                .pair {
+                    .item {
+                        padding: 10px;
+                        margin: 10px;
+                        color: $color-icon;
+                        font-weight: 600;
+                        cursor: pointer;
+                        border-radius: 8px;
+                        &:hover {
+                            background: $color-item;
+                        }
+                    }
+                }
+            }
+        }
+        .btn-carousel {
+            position: absolute;
+            display: flex;
+            right: 0;
+            bottom: 0;
+            z-index: 10;
+            .btn-prev,
+            .btn-next {
+                background: $color-header;
+                padding: 10px 14px;
+                margin: 10px;
+                border-radius: 50%;
+                cursor: pointer;
+                font-weight: 600;
+            }
+        }
+        .carousel {
+            width: 50%;
+            display: flex;
+            .item {
+                width: 500px;
+                cursor: grab;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+}
